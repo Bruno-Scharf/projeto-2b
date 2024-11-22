@@ -34,6 +34,9 @@ export default function Header() {
           <li>
             <Link href="/sobre" aria-label="Ir para a página Sobre"><h2>Sobre</h2></Link>
           </li>
+          <li>
+            <Link href="/contato" aria-label="Ir para a página contato"><h2>contato</h2></Link>
+          </li>
         </ul>
       </nav>
     </header>
