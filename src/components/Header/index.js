@@ -20,7 +20,7 @@ export default function Header() {
       </div>
 
 
-        {/* Menu hamburguer para dispositivos móveis */}
+        
         <div className={styles.menuHamburguer} onClick={toggleMenu}>
           <span className={menuAberto ? styles.open : ''}></span>
           <span className={menuAberto ? styles.open : ''}></span>

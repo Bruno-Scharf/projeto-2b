@@ -1,5 +1,5 @@
 
-/* Estilos do cabeçalho */
+
 .header {
   padding: 15px 20px;
   background-color: var(--foreground);
@@ -37,7 +37,7 @@
 }
 
 
-/* Links */
+
 .lista li a {
   text-decoration: none;
   color: var(--background);
@@ -88,18 +88,17 @@
   transform: rotate(-45deg) translateY(-8px);
 }
 
-/* Menu ativo (quando aberto) */
+
 .lista.ativo {
     display: block;
-    position: fixed;  /* Posicionamento fixo */
+    position: fixed; 
     top: 0;
-    left: 0;           /* Fica fixado à esquerda */
-    width: 250px;      /* Largura do menu lateral */
-    height: 100vh;     /* Ocupa toda a altura da tela */
-    background-color: var(--fundo);
-    padding-top: 50px; /* Espaço para logo ou título */
+    left: 0;          
+    width: 250px;      
+    height: 100vh;     
+    padding-top: 50px; 
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
-    z-index: 5;        /* Fica acima de outros elementos */
+    z-index: 5;        
     background-color: var(--foreground);
     
  
@@ -107,37 +106,37 @@
 
 @media (max-width: 600px) {
   .logo Image {
-    height: 30px; /* Reduza o tamanho em telas menores */
+    height: 30px; 
   }
   .logo{
     margin-right: auto;
   }
   
   .lista {
-      display: none; /* Esconde o menu em dispositivos pequenos */
+      display: none; 
     }
   
     .menuHamburguer {
-      display: flex; /* Exibe o menu hambúrguer */
+      display: flex; 
     }
   
     .lista.ativo {
-      display: block; /* Exibe o menu quando o estado ativo for verdadeiro */
+      display: block; 
     }
   }
   
-/* Logo */
+
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px; /* Espaço entre a imagem e o texto */
+  gap: 10px; 
 }
 
 .logo img {
-  border-radius: 50%; /* Torna a imagem redonda */
-  width: 60px;       /* Ajuste o tamanho conforme necessário */
-  height: 60px;      /* Garante que o aspecto seja mantido */
-  object-fit: cover; /* Garante que a imagem seja bem enquadrada */
+  border-radius: 50%; 
+  width: 60px;       
+  height: 60px;      
+  object-fit: cover; 
 }
 
 
