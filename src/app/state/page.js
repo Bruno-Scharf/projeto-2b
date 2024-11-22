@@ -19,8 +19,8 @@ export default function State() {
     
     return(
         <div>
-            <p>{img}</p>
-            <button onClick={alterarMsg}>alterar</button>
+            <p>img</p>
+            {/* <button onClick={alterarMsg}>alterar</button> */}
             <p>sua mensagem: {msg}</p>
             <input type="text" onChange={manipularInput} />
 
