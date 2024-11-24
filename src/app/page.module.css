@@ -3,3 +3,19 @@
   display: block;
   margin: auto;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Alinha o conteúdo verticalmente */
+  align-items: center;     /* Alinha o conteúdo horizontalmente */
+  height: 100vh;           /* Faz a div ocupar toda a altura da tela */
+  text-align: center;      /* Centraliza o texto do h1 */
+}
+
+.title {
+  margin: 0;  /* Remove a margem padrão do h1 */
+}
+
+.img {
+  margin-top: 20px;  /* Espaçamento entre o título e a imagem */
+}
