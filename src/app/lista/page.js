@@ -1,4 +1,4 @@
-
+import Card from "@/components/card"
 export default function lista() {
     const nomes = ['Wagner','Bruno','Jonadas','Cauã', 'Ana']
     const carros = [
@@ -39,18 +39,18 @@ export default function lista() {
                 <h1>lista comum</h1>
                 <ul style={{marginLeft: '50px'}}>
                     {nomes.map((nome, id) => (
-                        <li key={id}>{id+1} - {nomes}</li>
+                        <li key={id}>{id+1} - {nome}</li>
                     ))}
                 </ul>
             </div>
             <div>
                 <h2>lista de objeto</h2>
                 {
-                    carros.map((carros,id) =>(
+                    carros.map((carro,id) =>(
                         <div key={id}>
-                            <h1>{carros.id} - {carro.modelo}</h1>
-                            <p>{carros.cor}</p>
-                            <p>{carros.ano}</p>
+                            <h1>{carro.id} - {carro.modelo}</h1>
+                            <p>{carro.cor}</p>
+                            <p>{carro.ano}</p>
                         </div>
 
                     ))}

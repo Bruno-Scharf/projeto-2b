@@ -43,6 +43,9 @@ export default function Header() {
           <li>
           <Link href="/props" aria-label="/"><h2>props</h2></Link>
           </li>
+          <li>
+          <Link href="/filter" aria-label="/"><h2>filter</h2></Link>
+          </li>
         </ul>
       </nav>
     </header>
