@@ -46,6 +46,9 @@ export default function Header() {
           <li>
           <Link href="/filter" aria-label="/"><h2>filter</h2></Link>
           </li>
+          <li>
+          <Link href="/efeitos" aria-label="/"><h2>efeito</h2></Link>
+          </li>
         </ul>
       </nav>
     </header>

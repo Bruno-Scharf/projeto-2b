@@ -14,7 +14,7 @@ export default function Filtro() {
 
     return (
         <div>
-            <h1>Filtr0</h1>
+            <h1>Filtro</h1>
             <input 
                 type="text"
                 value={busca}
